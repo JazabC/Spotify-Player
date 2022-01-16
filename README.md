@@ -1,6 +1,6 @@
 # Spotify Most Recently Played
 
-This is a small express API that you can use to get your currently playing or most recently played song on Spotify without having to authenticate with Spotify OAuth. Currently, Spotify requires an OAuth login to occur, and then they have a public endpoint at `/me` which will get the authenticated user's information. If you only want your data, you'll have to continually ping with a websocket or timeout and refresh a login token. Or you can scrobble your data with lastFM, and use the Spotify search API to get spotify meta data, which is what this code does.
+This is a express API that you can use to get your currently playing or most recently played song on Spotify without having to authenticate with Spotify OAuth. 
 
 ## Endpoints
 
